@@ -51,7 +51,7 @@ module Players
            #when 3 
            
            #when 4 
-           #if move 2 was a corner and move three is a corner, Place your third X in the last empty corner. or if move two was an edge,
+           #if move 2 was a corner and move three is a corner, Place your third X in the last empty corner. or if move two was an edge,If your opponent puts down an O in the corner that's not next to your X, you can use your third X to block their move and automatically win with your fourth X.
             
         else #choose a random free space
            random = rand(1..9).to_s
