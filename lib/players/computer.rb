@@ -61,11 +61,6 @@ module Players
              random
       end
     end
-    
+    end
   end
-   
-   
-    #if other player has two in a row pick the third one
-    
-end
 
