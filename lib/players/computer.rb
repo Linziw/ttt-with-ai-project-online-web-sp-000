@@ -48,6 +48,10 @@ module Players
           [6,8].sample.to_s
         end
             
+           #when 3 
+           
+           #when 4
+            
         else #choose a random free space
            random = rand(1..9).to_s
              until !board.taken?(random)
